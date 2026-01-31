@@ -1,0 +1,276 @@
+    <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>สั่งน้ำคาเฟ่ ☕</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+    <h1>☕PP,Cafe☕</h1>
+<h2>ร้าน  PP Cafe ยินดีต้อนรับค่ะ</h2>
+    <p>คลิกที่รูปเพื่อกดสั่งรายการสินค้าได้เลยนะคะ</p>
+</header>
+
+<section class="menu-grid">
+    <div class="item" onclick="selectMenu('อเมริกาโน่', this)">
+        <img src="images/ama.jpg">
+        <p>อเมริกาโน่</p>
+        <span class="price">50/55/60 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('ลาเต้', this)">
+        <img src="images/late.jpg">
+        <p>ลาเต้</p>
+        <span class="price">50/55/60 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('คาปูชิโน', this)">
+        <img src="images/kapu.jpg">
+        <p>คาปูชิโน</p>
+        <span class="price">50/55/60 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('ชาเขียว', this)">
+        <img src="images/green.jpg">
+        <p>ชาเขียว</p>
+        <span class="price">45/50/55 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('ชามะนาว', this)">
+        <img src="images/greenhuney.jpg">
+        <p>ชามะนาว</p>
+        <span class="price">40/50/55 บาท</span>
+    </div>
+
+     <div class="item" onclick="selectMenu('ชาใต้หวัน', this)">
+        <img src="images/taiwan.jpg">
+        <p>ชาใต้หวัน</p>
+        <span class="price">50/55/60 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('ชาไทย', this)">
+        <img src="images/thai.jpg">
+        <p>ชาไทย</p>
+        <span class="price">45/50/55 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('นมสด', this)">
+        <img src="images/milk.jpg">
+        <p>นมสด</p>
+        <span class="price">40/50/55 บาท</span>
+    </div>
+
+    <div class="item" onclick="selectMenu('โกโก้', this)">
+        <img src="images/gogo.jpg">
+        <p>โกโก้</p>
+        <span class="price">55/60/65 บาท</span>
+     </div>
+
+    <div class="item" onclick="selectMenu('มัจฉะฮั่นนี่', this)">
+        <img src="images/greenhuney.jpg">
+        <p>มัจฉะฮั่นนี่</p>
+        <span class="price">60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('โยเกิร์ทสมูทตี้', this)">
+        <img src="images/smoth.jpg">
+        <p>โยเกิร์ทสมูทตี้</p>
+        <span class="price">55/60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('อะโวคาโด้', this)">
+        <img src="images/avo.jpg">
+        <p>อะโวคาโด้</p>
+        <span class="price">60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('อะโวคาโดฮั่นนี่', this)">
+        <img src="images/avohuney.jpg">
+        <p>อะโวคาโด้ฮั่นนี่</p>
+        <span class="price">65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('น้ำบ๊วย', this)">
+        <img src="images/bauy.jpg">
+        <p>น้ำบ๊วย</p>
+        <span class="price">35/45/50 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('น้ำเเดงโซดา', this)">
+        <img src="images/red.jpg">
+        <p>น้ำเเดงโซดา</p>
+        <span class="price">35/45/50 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('แตงโมปั่น', this)">
+        <img src="images/momo.jpg">
+        <p>แตงโมปั่น</p>
+        <span class="price">55/60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('แอปเปิ้ลไซรับ', this)">
+        <img src="images/apple.jpg">
+        <p>แอปเปิ้ลไซรับ</p>
+        <span class="price">55/60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('กีวี่', this)">
+         <img src="images/givi.jpg">
+        <p>กีวี่</p>
+        <span class="price">55/60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('กล้วย', this)">
+        <img src="images/banana.jpg">
+        <p>กล้วย</p>
+        <span class="price">60/65 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('เลม่อน', this)">
+        <img src="images/lamon.jpg">
+        <p>เลม่อน</p>
+        <span class="price">50/50/60 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('ไข่มุก', this)">
+        <img src="images/mook.jpg">
+        <p>ไข่มุก</p>
+        <span class="price">10 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('ฟรุตสลัด', this)">
+        <img src="images/slad.jpg">
+        <p>ฟรุตสลัด</p>
+        <span class="price">10 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('เม็ดมุกป็อป', this)">
+        <img src="images/pop.jpg">
+        <p>เม็ดมุกป็อป</p>
+        <span class="price">15 บาท</span>
+     </div>
+
+ <div class="item" onclick="selectMenu('วิปครีม', this)">
+        <img src="images/wip.jpg">
+        <p>วิปครีม</p>
+        <span class="price">15 บาท</span>
+     </div>
+
+
+
+
+
+
+
+
+</section>
+
+<section class="order">
+    <div class="card">
+
+        <p><strong>เมนูที่เลือก:</strong> <span id="menuText">ยังไม่ได้เลือก</span></p>
+
+        <label>ระดับความหวาน</label>
+        <select id="sweet">
+            <option>ไม่หวาน (0%)</option>
+            <option>หวานน้อย (25%)</option>
+            <option>หวานปกติ (50%)</option>
+            <option>หวานมาก (75%)</option>
+            <option>หวานสุด (100%)</option>
+        </select>
+
+        <label>ขนาดแก้ว</label>
+        <select id="size">
+            <option>เล็ก (S)</option>
+            <option>กลาง (M)</option>
+            <option>ใหญ่ (L)</option>
+        </select>
+
+        <button onclick="order()">สั่งซื้อ</button>
+
+        <p id="result"></p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Coffee Cafe</p>
+</footer>
+
+<script>
+let selectedMenu = "";
+
+function selectMenu(name, element) {
+    selectedMenu = name;
+    document.getElementById("menuText").innerText = name;
+
+    document.querySelectorAll(".item").forEach(i => i.classList.remove("active"));
+    element.classList.add("active");
+}
+
+function order() {
+    if (selectedMenu === "") {
+        alert("กรุณาเลือกเมนู");
+        return;
+    }
+
+    let sweet = document.getElementById("sweet").value;
+    let size = document.getElementById("size").value;
+
+    document.getElementById("result").innerHTML =
+        "🧾 สรุปออเดอร์<br>" +
+        "เมนู: " + selectedMenu + "<br>" +
+        "ความหวาน: " + sweet + "<br>" +
+        "ขนาดแก้ว: " + size;
+}
+</script>
+<script>
+let selectedMenu = "";
+
+// ตารางราคา
+const prices = {
+    "อเมริกาโน่": { S: 50, M: 55, L: 60 },
+    "ลาเต้": { S: 50, M: 55, L: 60 },
+    "คาปูชิโน": { S: 50, M: 55, L: 60 },
+    "ชาเขียว": { S: 45, M: 50, L: 55 },
+    "ชามะนาว": { S: 40, M: 50, L: 55 },
+    "โกโก้": { S: 55, M: 60, L: 65 },
+    "ไข่มุก": { S: 10, M: 10, L: 10 }
+};
+
+function selectMenu(name, element) {
+    selectedMenu = name;
+    document.getElementById("menuText").innerText = name;
+
+    document.querySelectorAll(".item").forEach(i => i.classList.remove("active"));
+    element.classList.add("active");
+}
+
+function order() {
+    if (selectedMenu === "") {
+        alert("กรุณาเลือกเมนู");
+        return;
+    }
+
+    let sweet = document.getElementById("sweet").value;
+    let sizeText = document.getElementById("size").value;
+    let size = sizeText.includes("S") ? "S" :
+               sizeText.includes("M") ? "M" : "L";
+
+    let price = prices[selectedMenu]?.[size] || 0;
+
+    document.getElementById("result").innerHTML =
+        "🧾 <strong>สรุปออเดอร์</strong><br>" +
+        "เมนู: " + selectedMenu + "<br>" +
+        "ความหวาน: " + sweet + "<br>" +
+        "ขนาดแก้ว: " + sizeText + "<br>" +
+        "💰 ราคา: <strong>" + price + " บาท</strong>";
+}
+</script>
+
+
+</body>
+</html>
